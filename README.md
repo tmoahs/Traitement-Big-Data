@@ -1,12 +1,10 @@
-# Projet 9 : Réalisez un traitement dans un environnement Big Data sur le Cloud
+# Réalisation d'un traitement dans un environnement Big Data sur le Cloud
 
 ### Objectif & Résultat Principal
 
 Mise en place d'un pipeline de feature engineering scalable sur **AWS** pour un projet AgriTech ("Fruits!"). Le processus, orchestré sur un cluster **EMR avec PySpark**, charge les images depuis **S3** et applique un transfer learning (**MobileNetV2**) via **UDF Pandas**, après **broadcast** des poids du modèle. Une **PCA (PySpark ML)** a ensuite réduit la dimension des features à 100 composantes, optimisant le stockage avant sauvegarde au format **Parquet** sur S3.
 
 ---
-
-Ce projet, le neuvième du parcours Data Scientist d'OpenClassrooms, consiste à migrer un processus de traitement de données (images) d'un environnement local vers une architecture cloud Big Data, en prévision d'une augmentation massive du volume de données.
 
 ### Contexte
 
